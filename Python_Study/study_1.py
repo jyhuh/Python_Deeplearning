@@ -14,7 +14,6 @@ def relu(x):
 def identity_function(x):
     return x
 
-'''
 x = np.arange(-5.0 , 5.0 , 0.01)
 y = step(x)
 
@@ -22,9 +21,6 @@ plt.plot(x,y)
 plt.ylim(-0.1,1.1)
 plt.grid(1)
 plt.show()
-'''
-
-# NN 하드코딩,그냥 예제로 있는 내용
 
 X = np.array([1.0, 0.5])
 W1 = np.array([[0.1, 0.3, 0.5],[0.2, 0.4, 0.6]])
