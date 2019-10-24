@@ -14,7 +14,7 @@ def relu(x):
 def identity_function(x):
     return x
 
-def init_network():
+def init_network1():
     network = {}
     network['W1'] = np.array([[0.1,0.3,0.5],[0.2,0.4,0.6]])
     network['b1'] = np.array([0.1,0.2,0.3])
@@ -35,7 +35,7 @@ def forward(network, x):
     y = identity_function(a3)
     return y
 
-network = init_network()
+network = init_network1()
 x = np.array([1.0,0.5])
 y = forward(network, x)
 print(y)
