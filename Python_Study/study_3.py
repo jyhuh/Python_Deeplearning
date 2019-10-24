@@ -7,13 +7,11 @@ import NN_func
 #step
 #softmax
 
-#book1 91p
+#book1 97p
 import sys, os
 
 from os import chdir
 chdir("/Users/jaeyeonic/Desktop/Code/Python_Deeplearning/Python_Deeplearning/Python_Study")
-print(os.getcwd())
-print(os.listdir('.'))
 sys.path.append(os.pardir)
 from dataset.mnist import load_mnist
 
@@ -23,4 +21,3 @@ print(x_train.shape)
 print(t_train.shape)
 print(x_test.shape)
 print(t_test.shape)
-zz
